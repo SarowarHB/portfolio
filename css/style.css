@@ -1117,6 +1117,7 @@ a.brand:focus{
 }
 
 .section-bg{
+  background-image: url(../images/bg/noname.png);
   position: absolute;
   left: 0;
   top:0;
@@ -1242,7 +1243,7 @@ a.brand:focus{
 }
 
 .display-2{
-  font-size: 6.54rem;
+  font-size: 5rem;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.05em;
@@ -1665,6 +1666,7 @@ a.brand:focus{
   .project-detail-row .project-number{
     top:3vmin;
   }
+
 }
 
 
@@ -2133,6 +2135,13 @@ a.brand:focus{
     display: block;
   }
   
+}
+
+@media (max-width: 900px){
+
+  .section-bg{
+    background-image: url(../images/bg/noname2.png);
+  }
 }
 
 
