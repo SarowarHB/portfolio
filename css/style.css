@@ -1526,7 +1526,7 @@ a.brand:focus{
 }
 
 .bg-changer .section-bg:first-child{
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 .project-row{

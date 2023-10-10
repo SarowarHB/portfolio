@@ -298,9 +298,9 @@
       <div data-anchor="page5" class="pp-scrollable text-white section section-5">
         <div class="scroll-wrap">
           <div class="bg-changer">
-            <div class="section-bg" style="background-image:url(images/bg/MVES.png);"></div>
-            <div class="section-bg" style="background-image:url(images/bg/P-E-A.png);"></div>
+            <div class="section-bg active" style="background-image:url(images/projectImage/clothVine/Cloth-Vine.png);"></div>
             <div class="section-bg" style="background-image:url(images/projectImage/banzi/Home.png);"></div>
+            <div class="section-bg" style="background-image:url(images/bg/P-E-A.png);"></div>
             <div class="section-bg" style="background-image:url(images/projectImage/zanity/ZenityApp.png);"></div>
           </div>
           <div class="scrollable-content">
@@ -313,29 +313,29 @@
                       <div class="row">
                         <div class="col-md-12">
                           <div class="project-row">
-                            <a href="project-detail.html">
+                            <a class="active" href="mves.html">
                               <span class="project-number">01</span>
                               <h2 class="project-title">Multivendor E-Commerce</h2>
                               <div class="project-category">E-Commerce</div>
                             </a>
                           </div>
                           <div class="project-row">
-                            <a class="active" href="project-detail.html">
+                            <a href="banzischool.html">
                               <span class="project-number">02</span>
-                              <h2 class="project-title">PEA</h2>
-                              <div class="project-category">Natural Medicine Practitioner</div>
-                            </a>
-                          </div>
-                          <div class="project-row">
-                            <a href="project-detail.html">
-                              <span class="project-number">03</span>
                               <h2 class="project-title">Banzi School</h2>
                               <div class="project-category">Online Learning Management</div>
                             </a>
                           </div>
+                          <div class="project-row">
+                            <a href="pea.html">
+                              <span class="project-number">03</span>
+                              <h2 class="project-title">PEA</h2>
+                              <div class="project-category">Natural Medicine Practitioner</div>
+                            </a>
+                          </div>
                           
                           <div class="project-row">
-                            <a href="project-detail.html">
+                            <a href="zanity.html">
                               <span class="project-number">04</span>
                               <h2 class="project-title">Zanity App</h2>
                               <div class="project-category">Chill Vibes and Confidence Collide</div>
@@ -539,7 +539,8 @@
                         </div>
                         <div class="col-md-6">
                           <div class="contact-info">
-                            <form class="js-form" novalidate="novalidate">
+                            <form class="js-form" novalidate="novalidate" method = "post" 
+                            action = "mail.php" enctype = "multipart/form-data" id = "file">
                               <div class="row">
                                 <div class="form-group col-sm-6">
                                   <input type="text" name="name" required="" placeholder="Name*" aria-required="true">
