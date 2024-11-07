@@ -607,6 +607,7 @@ a.brand:focus{
   display: inline-block;
   vertical-align:middle;
   margin-right: 0.65rem;
+  height: 40px;
 }
 
 .brand-info{
