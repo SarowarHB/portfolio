@@ -105,7 +105,7 @@
           });
 
           // Firefox back button issue #4
-          $window.on('unload.' + namespace, function() { });
+          $window.on('pagehide.' + namespace, function() { });
 
           $document.on('click.' + namespace, options.linkElement, function(event) {
             event.preventDefault();
